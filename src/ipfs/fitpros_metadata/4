@@ -1,0 +1,8 @@
+{
+    "name": "4rd NFT",
+    "description": "This is your 4th nft",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY4S5ZkB6zQvK15irEQY7LGrMgMcPNMjypM2UEYodyotW",
+    "strength": 10,
+    "luck": 4,
+    "bonus_luck": 15
+}

@@ -1,0 +1,8 @@
+{
+    "name": "2nd NFT",
+    "description": "This is your 2nd nft",
+    "image": "https://gateway.pinata.cloud/ipfs/QmY4S5ZkB6zQvK15irEQY7LGrMgMcPNMjypM2UEYodyotW",
+    "attack": 223,
+    "collectable": true,
+    "class": "EnumValue2"
+}
