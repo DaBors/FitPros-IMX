@@ -2,11 +2,11 @@ import { requireEnvironmentVariable } from "libs/utils";
 
 
 (async (): Promise<void> => {
-    const pinata_api_key = requireEnvironmentVariable('PINATA_API_KEY');
-    const pinata_secret_key = requireEnvironmentVariable('PINATA_SECRET_KEY');
+    const pinataApiKey = requireEnvironmentVariable('PINATA_API_KEY');
+    const pinataSecretKey = requireEnvironmentVariable('PINATA_SECRET_KEY');
 
     const pinataSDK = require('@pinata/sdk');
-    const pinata = pinataSDK(pinata_api_key, pinata_secret_key);
+    const pinata = pinataSDK(pinataApiKey, pinataSecretKey);
 
 
     try {
