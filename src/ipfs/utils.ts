@@ -4,3 +4,26 @@ export function getFileCountInFolder(path: string) {
 
     return length;
 }
+
+enum KyzanClanz {
+  ClanlessMerchant,
+  Assassin
+}
+
+
+interface KyzanClanzMetadata {
+  name: string
+  description: string
+  image: string
+  class: KyzanClanz
+}
+
+export function create_metadata_for_token(tokenId: number, tokenType: KyzanClanz) {
+
+}
+
+
+
+export function getKyzanClanz(kyzanClanz: KyzanClanz, tokenId: number) {
+
+}
